@@ -8,7 +8,7 @@ int main(int argc, char **argv)
 
 	ros::Publisher ros_tutorial_pub =
 		nh.advertise<ros_tutorials_topic::MsgTutorial>
-		("ros_tutorial_msg:", 100);
+		("ros_tutorial_msg", 100);
 	ros::Rate loop_rate(10);
 	ros_tutorials_topic::MsgTutorial msg;
 	int count = 0;
