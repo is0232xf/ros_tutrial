@@ -1,2 +1,2 @@
 time stamp
-ini32 data
+int32 data
